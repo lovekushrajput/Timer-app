@@ -1,0 +1,83 @@
+@import "_reset";
+@import "common";
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  background-color: rgb(32, 43, 51);
+  border: transparent;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.timer {
+  background-color: rgb(32, 43, 51);
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.stopWatch,
+.countDown {
+  background-color: rgb(22, 27, 31);
+  border: 2px solid rgb(128, 128, 128);
+  width: 33%;
+  height: 47vh;
+  position: relative;
+  h2 {
+    margin-top: 0.6rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+// stopWatch
+.stopWatch-btn {
+  padding: 0.8rem 2.5rem;
+  font-size: 1.3rem;
+}
+
+// countdown
+.countDown-div {
+  margin-top: 1rem;
+}
+
+.countDown--para {
+  font-size: 1.3rem;
+}
+
+.semi {
+  margin: 0 0.6rem;
+}
+
+ul {
+  margin: 0.8rem 0;
+}
+
+.countDown-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.para {
+  margin: 0.5rem 0;
+  font-size: 2.8rem;
+}
+
+i {
+  font-size: 2rem;
+  color: rgb(232, 230, 230);
+}
